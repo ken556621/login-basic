@@ -2,7 +2,9 @@
 
 
 ## Features
-1. 登入
+1. 輸入信箱以及密碼
+2. 若輸入錯誤出現錯誤訊息
+3. 成功則導向 Welcome Page
 
 ## Installation
 1. Github clone

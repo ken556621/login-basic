@@ -1,0 +1,23 @@
+<div class="title text-center m-4">
+  <h1>Account Login</h1>
+</div>
+<div class="container">
+  <div class="row justify-content-center text-center">
+    <form class="col-4" action="/" method="POST">
+      <div class="form-group">
+        <label for="exampleInputEmail1"></label>
+        <input type="email" class="form-control {{#if defaultMessage}}border-danger{{/if}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1"></label>
+        <input type="password" class="form-control {{#if defaultMessage}}border-danger{{/if}}" id="exampleInputPassword1" placeholder="Password" name="password">
+        {{#if defaultMessage}}<small id="emailHelp" class="form-text text-danger">Your email or password not correct!</small>{{/if}}
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="showpassword">
+        <label class="form-check-label" for="exampleCheck1">Show password</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+  </div>
+</div>
